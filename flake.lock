@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "nix-tools": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "dir": "luks-unlock",
+        "lastModified": 1794665342,
+        "narHash": "sha256-gDJKWcn8sN8UWJOqF3gjfTJ6kmdorFb6cYbdTdZ4wy0=",
+        "owner": "Soziapath",
+        "repo": "nix-tools",
+        "rev": "ffe0d6bdfff32edf07166b825b6212221d8a23b9",
+        "type": "github"
+      },
+      "original": {
+        "dir": "luks-unlock",
+        "owner": "Soziapath",
+        "repo": "nix-tools",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1793341285,
+        "narHash": "sha256-Y1CiZ4SoBUjLQyQM/pY+rS2dXD3CHLPstF0lmOc73D4=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "1c89083e451e891152365b799595cf7790a43325",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nix-tools": "nix-tools",
+        "nixpkgs": [
+          "nix-tools",
+          "nixpkgs"
+        ]
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
