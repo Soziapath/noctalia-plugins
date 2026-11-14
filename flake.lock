@@ -6,11 +6,11 @@
       },
       "locked": {
         "dir": "luks-unlock",
-        "lastModified": 1794665342,
-        "narHash": "sha256-gDJKWcn8sN8UWJOqF3gjfTJ6kmdorFb6cYbdTdZ4wy0=",
+        "lastModified": 1794666831,
+        "narHash": "sha256-a+HaCsYnTuBn/l8N9mWrty+8C6r7WJR3jEA/B3Gq+Zo=",
         "owner": "Soziapath",
         "repo": "nix-tools",
-        "rev": "ffe0d6bdfff32edf07166b825b6212221d8a23b9",
+        "rev": "3cd3f75c48879f3b8bbcc02f25b216a4697f8039",
         "type": "github"
       },
       "original": {
